@@ -1,0 +1,5 @@
+/api/chatgpt /.netlify/functions/chatgpt 200
+
+https://www.nethull.com/*  https://nethull.com/:splat  301!
+
+/*  /index.html  200

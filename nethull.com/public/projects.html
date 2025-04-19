@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Nethul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body class="fade-in">
+  
+  <header>
+    <h1>My Projects</h1>
+    <p>A growing collection of the things I’ve built or am building.</p>
+  </header>
+
+  <main class="projects-container">
+    <section class="card expandable-card">
+        <div class="card-header">
+        <h2>Chatbot In Python</h2>
+        <p>I made a chatbot in python that uses gpt-4 capabilites to answer your questions! You can change themes and more.</p>
+        </div>
+    
+    
+        <div class="card-extra">
+        <h2>Why did I build a chatbot?</h2>
+        <p>I built this for fun but also to see how chatbots would work using the openai api, turns out you can fully customize everything and make a more personal experience with chatbots!</p>
+    </div>
+    </section>
+    <section class="card expandable-card">
+        <div class="card-header">
+        <h2>Python/Pygame Phone</h2>
+        <p>I made a phone using pygame in python and gave it so many capabilites! You can talk to AI, change themes, set alarms and timers, and more! It really shows how much you can do with python. </p>
+    </div>
+    
+    
+        <div class="card-extra">
+        <h2>Why did I build a phone in python?</h2>
+        <p>I built it for fun and to see how far I could get with pygame, I learned so much! It's crazy how much you can do using pygame and python! When I first started I did not even know that you could get a whole chatbot into python! </p>
+    </div>
+    </section>
+  </main>
+  
+
+  
+  <footer>
+    
+  </footer>
+  <p class="copyright">© 2025 Nethul • v1.2 • Made with 💻 + time</p>
+<nav class="footer-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="blog.html">Blog</a>
+  <
+  <div id="chat-toggle">💬</div>
+
+<div id="chat-box" class="hidden">
+  <div id="chat-messages"></div>
+  <form id="chat-form">
+    <input type="text" id="chat-input" class="chat-input" placeholder="Ask me anything..." required />
+    <button type="submit" class="chat-send-button">Send</button>
+  </form>
+</div>
+<script src="js/main.js" defer></script>
+</body>
+</html>

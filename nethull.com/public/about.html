@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Nethul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body class="fade-in">
+  
+  <header>
+    <h1>About Me</h1>
+    <p>Learn more about who I am and what I do.</p>
+  </header>
+
+  <main class="about-container">
+    <!-- 🧠 ABOUT ME SECTION -->
+    <div class="section-wrapper">
+      <section class="section-block">
+        <div class="section-inner">
+          <h2 class="section-heading">🧠 About Me</h2>
+          <div class="card-group">
+            <section class="card"> <!-- Card 1 -->
+              <h2>👋 Intro</h2>
+              <p>Hey, I’m Nethul, a 13 year old who loves coding and doing stuff that can be useful for everyone in day to day life(I also like gaming)</p>
+            </section>
+        
+            <section class="card"> <!-- Card 2 -->
+              <h2>🎯 Interests</h2>
+              <p>I like coding, especially python and html because of how versatile the languages are, I also like biking, and music, I play the violin too! Another thing I love doing is debate, it is so interesting and I am in debate club in middle school</p>
+            </section>
+            <section class="card"> <!-- Card 4 -->
+              <h2>🤓 Fun Facts</h2>
+              <p>I own this domain—nethull.com</p>
+              <p>In the chatbot, you are limited to up to 30 messages per day due to costs, sorry!</p>
+              <p>The chatbot uses gpt-4o-mini!</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- 💼 WHAT I DO SECTION -->
+      <section class="section-block">
+        <div class="section-inner">
+          <h2 class="section-heading">💼 What I Do</h2>
+          <div class="card-group">
+            <section class="card">
+              <h2>💼 What I Do</h2>
+              <p>I build websites from scratch using just HTML, CSS, and JavaScript(like this one!). I also love intergrating AI models (like GPT-4o) using API's and sererless functions. I have built many interactive projects with Python and Pygame, like a phone in python, my main goal when I code is to make something that can solve real world probelms, or make things easier for everyone. </p>
+            </section>
+
+            <section class="card"> <!-- Card 3 -->
+              <h2>💻 Tech</h2>
+              <p>Python, HTML, CSS, and more. I code on my macbook air, it's amazing for coding and more</p>
+            </section>
+            <section class="card">
+              <h2>🧪 Experiments</h2>
+              <p>One random thing I tried is making a code that stops for red lights in a Roblox game using CV, but I underestimated how hard it was to get info from images and work with plain vision.</p>
+            </section>
+
+            <section class ="card">
+              <h2>🎯Goals</h2>
+              <p>My goal in the future is to become a software engineer at big tech. I also want to learn React and Tailwind CSS.</p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- 📬 RESUME & CONTACT SECTION -->
+      <section class="section-block">
+        <div class="section-inner">
+          <h2 class="section-heading">📬 Resume & Contact</h2>
+          <div class="card-group">
+            <section class="card contact-card">
+              <h2>📬 Contact Info</h2>
+              <p class="expand-hint"> Click to view my contact details</p>
+              <div class="contact-details hidden">
+                <p>Email: nethul2011@gmail.com</p>
+                <p>Slack Username: Nethul</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    
+  </footer>
+  <p class="copyright">© 2025 Nethul • v1.2 • Made with 💻 + time</p>
+<nav class="footer-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="blog.html">Blog</a>
+</nav>
+<div id="chat-toggle">💬</div>
+
+<div id="chat-box" class="hidden">
+  <div id="chat-messages"></div>
+  <form id="chat-form">
+    <input type="text" id="chat-input" class="chat-input" placeholder="Ask me anything..." required />
+    <button type="submit" class="chat-send-button">Send</button>
+  </form>
+</div>
+<script src="js/main.js" defer></script>
+</body>
+</html>

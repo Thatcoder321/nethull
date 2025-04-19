@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nethul Kankanamge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body class="fade-in">
+  
+  <header>
+    <h1>Nethul Kankanamge's site</h1>
+    <p>Building simple things that do cool stuff.</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>Welcome to my personal site! Here is my corner of the internet where you can see what I do!.</p>
+    </section>
+
+    <section class="links">
+      <a href="projects.html">View My Projects</a>
+      <a href="about.html">About / Contact</a>
+      <button id="theme-toggle" class="theme-toggle">Toggle Dark Mode</button>
+
+      <div id="easter-egg" class="hidden card">
+        <h2>You found the Easter egg!</h2>
+        <p>This is a hidden message from Nethul. You must be cool to have found this 😎</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+  <p class="copyright">© 2025 Nethul • v1.2 • Made with 💻 + time</p>
+  <nav class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">Blog</a>
+    <a href="nerd-stuff.html">Nerd Stuff</a>
+  </nav>
+  
+  <div id="chat-toggle">💬</div>
+
+<div id="chat-box" class="hidden">
+  <div id="chat-messages"></div>
+  <div id="typing-indicator" class="hidden">Nethul is typing<span class="dots">...</span></div>
+  <form id="chat-form">
+    <input type="text" id="chat-input" class="chat-input" placeholder="Ask me anything..." required />
+    <button type="submit" class="chat-send-button">Send</button>
+  </form>
+</div>
+<div id="chat-box" class="hidden">
+</div>
+<script src="js/main.js" defer></script>
+</body>
+</html>

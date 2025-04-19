@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Nethul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body class="fade-in">
+  
+  <header>
+    <h1>My Blog</h1>
+    <p>Thoughts, dev logs, and random ideas I’m working on.</p>
+  </header>
+
+  <main class="blog-container">
+    <!-- Example Blog Post -->
+    <section class="card expandable-card blog-post">
+      <div class="card-header">
+        <h2>🧠 How I Got Back Into Coding After Burnout</h2>
+        <p>I took a long break from coding and honestly thought I forgot everything...</p>
+      </div>
+      <div class="card-extra">
+        <p>Last year, I felt completely disconnected from the stuff I used to build. I’d open up a file and stare at it. But then I decided to start small—HTML, CSS, basic layouts. Turns out that was all I needed. I learned that restarting doesn’t mean starting over. If you first understand the concept well, you can always get back to it later, and that's how I'm here building this website!</p>
+      </div>
+    </section>
+  </main>
+
+  <p class="copyright">© 2025 Nethul • v1.2 • Made with 💻 + time</p>
+  <nav class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+  <div id="chat-toggle">💬</div>
+
+<div id="chat-box" class="hidden">
+  <div id="chat-messages"></div>
+  <form id="chat-form">
+    <input type="text" id="chat-input" class="chat-input" placeholder="Ask me anything..." required />
+    <button type="submit" class="chat-send-button">Send</button>
+  </form>
+</div>
+<script src="js/main.js" defer></script>
+
+  
+</body>
+</html>
