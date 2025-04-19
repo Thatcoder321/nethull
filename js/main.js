@@ -112,7 +112,7 @@ window.addEventListener("DOMContentLoaded", () => {
       try {
         document.getElementById("typing-indicator").style.display = "block";
         
-        const res = await fetch("/.netlify/functions/chatgpt", {
+        const res = await fetch("/api/chatgpt", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
